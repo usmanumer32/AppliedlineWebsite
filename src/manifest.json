@@ -1,0 +1,13 @@
+{
+    "name": "Appliedline",
+    "short_name": "Appliedline",
+    "start_url": "index.html",
+    "background_color": "#fff",
+    "theme_color": "#2e3191",
+    "icons": [
+        {
+            "sizes": "300x300",
+            "src": "assets/graphics/appliedline-logo.png"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+.fullscreen {
+    overflow: auto;
+    overflow-y: auto;
+    display: block;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1050;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 15% 0 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fullscreen-open {
+    overflow: hidden;
+}
+
+.fullscreen-dialog {
+    position: relative;
+    margin: 0 auto;
+    width: 420px;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.close-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.close-wrapper>.close {
+    border: none;
+    background: none;
+    font-size: 32px;
+    float: right;
+    padding: 0;
+    cursor: pointer;
+}
+
+.close-wrapper>.close:focus, .close-wrapper>.close:active {
+    outline: none;
+}
+
+@media screen and (max-width: 480px) {
+    .fullscreen{
+        padding: 45% 0 0;
+    }
+
+    .fullscreen-dialog {
+        width: 80%;
+    }
+}

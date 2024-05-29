@@ -1,0 +1,150 @@
+agm-map {
+    height: 500px;
+    width: 100%;
+}
+
+.ng-invalid.ng-touched {
+    border-bottom-color: #f00;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+input[type='text'], [type='email'], [type='tel'], select, textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em;
+    padding: 0 5px 0.875em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, [type='tel']:focus, textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+
+select {
+    background: url('assets/graphics/icons/icon-ios7-arrow-down-32.png') no-repeat right;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.subject {
+    width: 100%;
+}
+
+.telephone {
+    width: 100%;
+}
+
+textarea {
+    line-height: 150%;
+    resize: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #474544;
+}
+
+:-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #474544;
+}
+
+#form_button {
+    background: none;
+    border: solid 2px #474544;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#form_button:hover {
+    background: #474544;
+    color: #F2F3EB;
+}
+
+.overflow-auto {
+    clear: both;
+}
+
+.overflow-auto #contact_section {
+    float: right;
+    width: 45%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.overflow-auto #contact_map {
+    float: left;
+    width: 55%;
+}
+
+#responsive-texts .one {
+    float: none;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+@media (max-width:800px) {
+    .overflow-auto {
+        clear: both;
+    }
+    .overflow-auto #contact_section {
+        float: left;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .overflow-auto #contact_map {
+        float: right;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}

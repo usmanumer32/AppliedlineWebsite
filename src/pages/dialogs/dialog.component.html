@@ -1,0 +1,15 @@
+<div *ngIf="showDialog" class="fullscreen">
+    <div class="fullscreen-dialog">
+
+        <div class="close-wrapper">
+            <button type="button" class="close" aria-label="Close" (click)="close()" title="Close">
+                <span class="h1" aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div>
+            <h5 class="text-center">{{dialogMessage}}</h5>
+        </div>
+
+    </div>
+</div>

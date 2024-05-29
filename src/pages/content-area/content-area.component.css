@@ -1,0 +1,180 @@
+
+.expertise-color {
+	color: #20ad65;
+}
+
+#ethics-wr {
+	overflow: hidden;
+	width: 100%;
+	padding: 70px 30px;
+	box-sizing: border-box;
+}
+
+.ethics-jumbotron {
+	float: left;
+	width: 30%;
+	font-size: 5em;
+	text-align: center;
+}
+
+.ethics-jumbotron h1 {
+	font-size: inherit;
+	margin: 30px 0 60px;
+}
+
+.ethics-notes {
+	float: left;
+	width: 70%;
+}
+
+.ethics-notes article {
+	float: left;
+	width: 33%;
+	min-height: 200px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.ethics-notes .title {
+	color: #6a5acd;
+	font-weight: bold;
+}
+
+.row {
+	overflow: auto;
+}
+
+#firstshow, #firstshow2, #firstshow3 {
+	min-height: 500px;
+	text-align: center;
+	color: white;
+	padding: 50px 0;
+	position: relative;
+}
+
+#firstshow {
+	background: url("assets/graphics/home_banner.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #fff;
+}
+
+#firstshow2 {
+	background: url("assets/graphics/7.7.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #fff;
+}
+
+#firstshow3 {
+	background: url("assets/graphics/6.6.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #fff;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.one.clientele {
+	width: 33.33%;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+	max-width: 800px;
+	position: relative;
+	margin: auto;
+}
+
+.slideshow-container img {
+	width: 100%;
+}
+
+#letusknow-wr {
+	position: relative;
+	height: 83px;
+}
+
+#letusknow {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 7px;
+	color: white;
+	background: hsl(0, 0%, 24%);
+}
+
+#letusknow .inquiry-text {
+	float: left;
+	color: white;
+	padding-left: 150px;
+	margin-top: 0;
+}
+
+#letusknow form {
+	text-align: center;
+	padding-top: 13px;
+}
+
+#letusknow input[type="text"] {
+	background: white;
+	padding: 4px;
+	height: 24px;
+	width: 250px;
+	border: none;
+}
+
+.hero-base-wr{
+	position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+}
+.hero-base-wr button{
+	height: 48px;
+	width: 180px;
+}
+
+/* tablet size */
+@media only screen and (max-width: 1080px) {
+	.ethics-jumbotron {
+		display: none;
+	}
+	.ethics-notes {
+		width: 100%;
+	}
+	#letusknow input[type="text"] {
+		width: 165px;
+	}
+	#letusknow .inquiry-text {
+		padding-left: 20px;
+	}
+}
+
+
+/* On smaller screens */
+@media only screen and (max-width: 480px) {
+	#letusknow-wr {
+		display: none;
+	}
+	.icons {
+		padding: 0;
+	}
+	.ethics-notes article {
+		width: 100%;
+	}
+	.banner-caption {
+		float: none;
+		margin-right: 0;
+	}
+	#firstshow {
+		min-height: 250px;
+		background: url("assets/graphics/ph1.png") no-repeat;
+		background-position: center;
+		background-size: contain;
+		background-color: #fff; 
+	}
+}
